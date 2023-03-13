@@ -16,5 +16,6 @@ public class GitTest {
         System.out.println("Hello git4  master test!");
         System.out.println("Hello git5  hot-fix test!");
         System.out.println("Hello git5  git_hub push test!");
+        System.out.println("Hello git5  git_hub pull test!");
     }
 }
