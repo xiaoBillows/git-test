@@ -17,7 +17,7 @@ public class TestController {
 
     @GetMapping("/str")
     public String str(){
-        return "Hello,world!!!";
+        return "Hello,world!!! <br> 遇见你总觉得相见恨晚";
     }
 
 }
