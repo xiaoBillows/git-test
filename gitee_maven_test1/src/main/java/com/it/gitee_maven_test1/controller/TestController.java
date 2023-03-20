@@ -17,7 +17,10 @@ public class TestController {
 
     @GetMapping("/str")
     public String str(){
-        return "Hello,world!!!你好我的城我的梦，我的西安！ <br> 遇见你总觉得相见恨晚";
+        return "Hello,world!!!你好我的城我的梦，我的西安！ " +
+                "<br> 遇见你总觉得相见恨晚" +
+                "<br>几轮轮明月照着几重重山" +
+                "<br>长安是家";
     }
 
 }
